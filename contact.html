@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/345d00f0f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <div id="header"> -->
+    <div>
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>matt_allen@live.ca</p>
+                    <p><i class="fa-solid fa-phone"></i>(902) 412-7230</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/matt.allen.9237244/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/matt.i.a._/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/matthew-allen-044546233/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Made in 2023</p>
+    </div>
+
+    <!-- Contact Form script credit: Jamie Wilson - https://github.com/jamiewilson/form-to-google-sheets -->
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwdqqyM-sXQWexfMMIUPddnejDbDRugRxd4sZu-0UVOW31KGxiz2lLHvvCdvncmcY2Z/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+</body>
+</html>
